@@ -1,0 +1,6 @@
+﻿  source.c
+C:\Users\123\source\repos\5lab\5lab\source.c(23,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\123\source\repos\5lab\5lab\source.c(35,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\123\source\repos\5lab\5lab\source.c(37,22): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\123\source\repos\5lab\5lab\source.c(39,27): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  5lab.vcxproj -> C:\Users\123\source\repos\5lab\x64\Debug\5lab.exe
