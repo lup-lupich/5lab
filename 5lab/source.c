@@ -10,7 +10,7 @@ int task2();
 int main() {
 	setlocale(LC_CTYPE, "RUS");
 	task1();
-	task2_3();
+	task2();
 
 	return 0;
 }
