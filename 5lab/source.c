@@ -5,12 +5,12 @@
 #include <math.h>
 
 int task1();
-int task2();
+int task2_3();
 
 int main() {
 	setlocale(LC_CTYPE, "RUS");
 	task1();
-	task2();
+	task2_3();
 
 	return 0;
 }
@@ -25,7 +25,8 @@ int task1() {
 	return 0;
 }
 
-int task2() {
+int task2_3() {
+	//task2
 	float x;
 	const float k = 8.2f;
 	printf("Введите значение x\n");
@@ -38,6 +39,15 @@ int task2() {
 	float y = pow(log(a), 3) + exp(-x);
 	printf("x = %.2f\n", x);
 	printf("y = %.2f\n\n", y);
+
+	//task3
+	int A = a;
+	int B = b;
+	int C = y;
+	int condition_a = ((A % 2 == 0) != (B % 2 == 0));
+	int condition_b = (A % 3 == 0) && (B % 3 == 0) && (C % 3 == 0);
+	printf("Условие a выполнено (1 - да, 0 - нет): %d\n", condition_a);
+	printf("Условие b выполнено (1 - да, 0 - нет): %d\n", condition_b);
 
 	return 0;
 }
